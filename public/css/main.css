@@ -1,8 +1,13 @@
 .bg-image  {
   background-image: url('../img/bg_main-min.jpg');
-  background-position: center center;
+  
 }
 
-.justify-item-content {
-  justify-items: center;
+.bg-fork {
+  background-image: url('http://127.0.0.1:5500/public/img/spoon_fork.svg');
+}
+
+.bg-center {
+  background-position: center center;
+  fill: #fa8b79;
 }

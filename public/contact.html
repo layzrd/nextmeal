@@ -69,144 +69,180 @@
         </div>
       </nav>
     </header>
-    <main class="flex items-center justify-center py-12">
-      <header class="px-2 md:px-4 bg-light-gray py-5">
-        <h1 class="text-xl md:text-xl lg:text-2xl text-center text-gray-600 font-bold">
-          Filter by dish, restaurant, city, state, drink, diet: </h1>
-        <div class="py-4 px-4">
-          <form action="#" class="flex flex-wrap justify-center">
-            <fieldset class="mt-4 border-none mx-2 flex-full-row md:flex-auto">
-              <label class="text-gray-800 block uppercase mb-3" for="global-search">Dish:*</label>
-              <input type="text" id="global-search" class="py-3 px-2 w-100">
-            </fieldset>
 
-            <fieldset class="mt-4 border-none mx-2 flex-full-row md:flex-auto">
-              <label class="text-gray-800 block uppercase mb-3" for="restaurant">Restaurant:</label>
-              <select name="restaurant" id="restaurant" class="py-3 px-2 w-100">
-                <option value="lalibela" class="py-3 px-2 ">Lalibela</option>
-                <option value="lalibela" class="py-3 px-2 ">Harambe</option>
-                <option value="lalibela" class="py-3 px-2 ">Istambul</option>
-              </select>
-            </fieldset>
-
-            <fieldset class="mt-4 border-none mx-2 flex-full-row md:flex-auto">
-              <label class="text-white block text-gray-800 uppercase mb-3" for="global-search">City:</label>
-              <select name="restaurant" id="restaurant" class="py-3 px-2 w-100">
-                <option value="lalibela" class="py-3 px-2 capitalize">Addis ababa</option>
-              </select></select>
-            </fieldset>
-
-            <fieldset class="mt-4 border-none mx-2 flex-full-row md:flex-auto">
-              <label class="text-white block text-gray-800 uppercase mb-3" for="global-search">State:</label>
-              <select name="restaurant" id="restaurant" class="py-3 px-2 w-100">
-                <option value="lalibela" class="py-3 px-2 capitalize">Addis ababa</option>
-              </select>
-            </fieldset>
-
-            <fieldset class="mt-4 border-none mx-2 flex-full-row md:flex-auto">
-              <label class="text-white block text-gray-800 uppercase mb-3" for="global-search">Drink:</label>
-              <select name="restaurant" id="restaurant" class="py-3 px-2 w-100">
-                <option value="lalibela" class="py-3 px-2 capitalize">Water</option>
-              </select>
-            </fieldset>
-
-            <fieldset class="mt-4 border-none mx-2 flex-full-row md:flex-auto">
-              <label class="text-white block text-gray-800 uppercase mb-3" for="global-search">Diet:</label>
-              <select name="restaurant" id="restaurant" class="py-3 px-2 w-100">
-                <option value="lalibela" class="py-3 px-2 capitalize">Vegan</option>
-              </select>
-            </fieldset>
-
-            <div class="mt-4 border-none mx-2 flex-full-row md:flex-auto flex items-end">
-              <button type="submit" class="bg-blue-600 mx-2 px-4 mt-4 text-white uppercase py-3">
-                Search
-              </button>
-
-              <button type="button" class="bg-yellow-600 capitalize mt-4 px-4 mx-2 text-white uppercase py-3">
-                Clear Filter
-              </button>
-            </div>
-
-          </form>
+    <main class="flex flex-col items-center justify-center px-8 pt-8 pb-0">
+      <article class="p-3 w-100 shadow my-10" >
+        <h1 class="text-2xl text-left uppercase text-prime flex items-center">
+          <svg class="m-2" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+          </svg>
+          Lalibela
+        </h1>
+        <div class="grid grid-cols-1 md:col-gap-1 md:grid-cols-2 text-black flex flex-wrap text-center">
+          <p class="uppercase border border-gray-200 my-1 p-2">Type:</p>
+          <p class="uppercase border border-gray-200 my-1 p-2 flex items-center justify-center">
+            <span class="mr-2">Level:</span>
+            <svg class="" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+          </p>
+          <p class="uppercase border border-gray-200 my-1 p-2">System:</p>
+          <p class="uppercase border border-gray-200 my-1 p-2">Diet: All Kind</p>
+          <p class="uppercase border border-gray-200 my-1 p-2">City:
+            <a href="https://en.wikipedia.org/wiki/Addis_Ababa" class="text-blue-500">Addis Ababa</a>
+          </p>
+          <p class="uppercase border border-gray-200 my-1 p-2">Email:
+            <a href="mailto:rediabdulaziz@gmail.com" class="text-blue-500">rediabdulaziz@gmail.com</a>
+          </p>
+          <p class="uppercase border border-gray-200 my-1 p-2">Country:
+            <a href="https://en.wikipedia.org/wiki/Ethiopia" class="text-blue-500">Ethiopia</a>
+          </p>
+          <p class="uppercase border border-gray-200 my-1 p-2 flex items-center justify-center">
+            <span class="mr-1">
+              Review:
+            </span>
+            <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg class="bi bi-star-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+            </svg>
+            <svg class="bi bi-star-half" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z" />
+            </svg>
+          </p>
         </div>
-      </header>
+        <div class="flex justify-end pt-8 pb-5">
+          <button type="submit" class="bg-blue-600 mx-2 flex px-4 items-center text-white uppercase py-1">
+            <svg class="pr-2" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12l-5-3-5 3V4z" />
+              <path d="M14 14l-1-.6V2a1 1 0 0 0-1-1H4.268A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v12z" />
+            </svg> 
+            Book
+          </button>
+        </div>
+         <div class="flex text-sm justify-end divide-x divide-gray-400 flex-wrap">
+          <span class="flex items-center h-4 mr-1 ">
+            <svg height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="ml-1"
+               viewBox="0 0 20 20">
+              <path fill="currentColor" d="M13.6,3H7V0H5v18.6C5,19.37,5.629,20,6.398,20H13.6c0.769,0,1.4-0.631,1.4-1.4V4.401
+              	C15,3.629,14.369,3,13.6,3z M8,15c-0.691,0-1.25-0.447-1.25-1S7.309,13,8,13s1.25,0.447,1.25,1S8.691,15,8,15z M9.25,17
+              	c0,0.553-0.559,1-1.25,1s-1.25-0.447-1.25-1S7.309,16,8,16S9.25,16.447,9.25,17z M7,11V5h6v6H7z M12,15c-0.691,0-1.25-0.447-1.25-1
+              	s0.559-1,1.25-1s1.25,0.447,1.25,1S12.691,15,12,15z M13.25,17c0,0.553-0.559,1-1.25,1s-1.25-0.447-1.25-1s0.559-1,1.25-1
+              	S13.25,16.447,13.25,17z" />
+            </svg>
+            Tel:
+          </span>
+          <span class="flex items-center h-4 mr-1">
+            <svg class="ml-1" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5v7h-1v-7a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5v1A1.5 1.5 0 0 1 0 10.5v-7zM4.5 11h6v1h-6v-1z" />
+              <path fill-rule="evenodd"
+                d="M11 5h2.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5h-1v-1h1a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4.5h-1V5zm-8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+              <path fill-rule="evenodd" d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+            </svg>
+            &nbsp;Trasnsport: Yes
+          </span>
+          <span class="flex items-center h-4 mr-1">
+            <svg class="mx-1" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+              <path fill="currentColor" d="M10,0.4c-5.295,0-9.601,4.307-9.601,9.6S4.705,19.6,10,19.6c5.293,0,9.6-4.307,9.6-9.6S15.293,0.4,10,0.4z
+            	 M18.188,10c0,1.873-0.636,3.6-1.696,4.98c-0.3-0.234-0.619-0.867-0.319-1.523c0.303-0.66,0.382-2.188,0.312-2.783
+            	c-0.066-0.594-0.375-2.025-1.214-2.039c-0.838-0.012-1.413-0.289-1.911-1.283c-1.033-2.068,1.939-2.465,0.906-3.609
+            	c-0.289-0.322-1.783,1.322-2.002-0.869C12.25,2.717,12.399,2.482,12.6,2.238C15.844,3.328,18.188,6.395,18.188,10z M8.875,1.893
+            	C8.679,2.275,8.162,2.43,7.848,2.717C7.164,3.336,6.87,3.25,6.502,3.844C6.131,4.438,4.935,5.293,4.935,5.723
+            	s0.604,0.936,0.906,0.838c0.302-0.1,1.099-0.094,1.567,0.07c0.469,0.166,3.914,0.332,2.816,3.244
+            	c-0.348,0.926-1.873,0.77-2.279,2.303c-0.061,0.225-0.272,1.186-0.285,1.5c-0.025,0.486,0.344,2.318-0.125,2.318
+            	c-0.471,0-1.738-1.639-1.738-1.936s-0.328-1.338-0.328-2.23c0-0.891-1.518-0.877-1.518-2.062c0-1.068,0.823-1.6,0.638-2.113
+            	c-0.181-0.51-1.627-0.527-2.23-0.59C3.412,4.334,5.889,2.307,8.875,1.893z M7.424,17.77c0.492-0.26,0.542-0.596,0.988-0.613
+            	c0.51-0.023,0.925-0.199,1.5-0.326c0.51-0.111,1.423-0.629,2.226-0.695c0.678-0.055,2.015,0.035,2.375,0.689
+            	c-1.295,0.861-2.848,1.363-4.514,1.363C9.1,18.188,8.234,18.039,7.424,17.77z" />
+            </svg>
+            Website:
+            <a href="https://abredi.github.io" class="text-blue-500">&nbsp; https://abredi.github.io</a>
+          </span>
+          <span class="flex items-center ml-1 h-4 text-blue-600">
+            
+            <span class="text-black ml-2">
+              Open:
+            </span>
+
+            Yes
+          </span>
+        </div>
+      </article>
+      <div class="text-normal text-gray-900 font-light">
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+          layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+          'Content here, content here', making it look like readable English. Many desktop publishing packages and web page
+          editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites
+          still in their infancy.
+        </p>
+      </div>
     </main>
 
-    <section
-      class="px-1/12 grid grid-cols-1 md:grid-cols-3 my-3 justify-center gap-20 items-center content-center grid-rows-ad-layout">
-      <h2 class="uppercase text-xl px-2 text-center md:col-span-3 self-end">
-        Your prefered dish found in 12 restaurants.
-      </h2>
+    <div class="p-4 my-4 bg-gray-200 text-gray-800 flex items-center">
 
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
+      <svg width="2em" height="2em" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20">
+        <path fill="#dbdbdb" d="M14,15.5V12H1V8h13V4.5l5.25,5.5L14,15.5z" />
+      </svg>
 
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
+      <svg class="mr-2 fill-current" width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path d="M14,5h-4v2h4V5z M14,8h-4v1h4V8z M9,5H6v4h3V5z M9,11h5v-1H9V11z M12,13h2v-1h-2V13z M14,14H6v1h8V14z
+            	 M11,12H6v1h5V12z M8,10H6v1h2V10z M17,1H3C2.447,1,2,1.447,2,2v16c0,0.552,0.447,1,1,1h14c0.553,0,1-0.448,1-1V2
+            	C18,1.448,17.553,1,17,1z M16,17H4V3h12V17z" />
+      </svg>
+      <a href="#" class="text-lg md:text-2xl uppercase w-100">click to view more details.</a>
+    </div>
 
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
-
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
-
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
-
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
-
-      <article
-        class="text-center bg-fork bg-center bg-contain bg-no-repeat flex text-gray-900 flex-col pt-10 pb-16 items-center bg-prime">
-        <h3 class="uppercase my-4 font-bold text-white">Name</h3>
-        <p class="capitalize font-light text-white px-4">
-          It's Simple. Your search result ;)
-        </p>
-      </article>
+    <section class="w-100 lg:p-20 md:px-8 mb-4">
+      <h2 class="text-2xl uppercase text-prime mb-4 flex items-center justify-center">
+        <svg class="mr-1 fill-current" width="1em"  height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path class="fill-current"
+            d="M5.454,14.548c0,0,4.568-0.627,6.518-2.576s2.576-6.518,2.576-6.518S9.979,6.081,8.03,8.03
+        	S5.454,14.548,5.454,14.548z M9.017,9.015c0.818-0.818,2.385-1.4,3.729-1.762c-0.361,1.342-0.945,2.92-1.76,3.732
+        	c-0.543,0.545-1.426,0.545-1.969,0C8.472,10.442,8.472,9.56,9.017,9.015z M10.001,0.4C4.698,0.4,0.4,4.698,0.4,10
+        	c0,5.303,4.298,9.601,9.601,9.601c5.301,0,9.6-4.298,9.6-9.601C19.601,4.698,15.302,0.4,10.001,0.4z M10,17.6
+        	c-4.197,0-7.6-3.402-7.6-7.6c0-4.197,3.402-7.6,7.6-7.6c4.197,0,7.601,3.402,7.601,7.6C17.601,14.197,14.197,17.6,10,17.6z" />
+        </svg>
+        map direction:</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.5712029428773!2d38.75442671477974!3d9.011543991743405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85c745d3179d%3A0x1f34638a7b29e347!2sLalibela%20Restaurant!5e0!3m2!1sam!2set!4v1592859521810!5m2!1sam!2set"
+        width="600" height="450" class="w-100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
     </section>
 
     <footer class="bg-black pt-8">
@@ -254,11 +290,11 @@
       </nav>
 
       <div class="hidden md:flex pt-4 px-12 flex flex-row flex-no-wrap w-100">
-        <div class="flex flex-col w-100 items-center">
+        <div class="flex flex-col w-100 md:px-2 items-center max-w-full">
           <h5 class="text-white uppercase mb-3">Subscribe</h5>
           <form action="#" class="flex">
             <input type="text" placeholder="your@example.com"
-              class="py-3 px-2 w-100 bg-transparent border border-gray-800 flex-grow">
+              class="py-3 text-base md:text-xs lg:text-lg md:w-1/2 lg:w-100 px-2 bg-transparent border border-gray-800 flex-grow">
             <button type="submit" class="bg-gray-800 px-4 py-3 text-white lowercase">
               Search
             </button>
@@ -357,11 +393,10 @@
             </li>
           </ul>
         </div>
-        <p class="text-white mt-3 md:mt-auto">
+        <p class="text-white text-right mt-3 md:mt-auto">
           This web is developed by <a href="https://twitter.com/rediabdulaziz">Abdulaziz Ali @rediabdulaziz</a>
         </p>
       </div>
     </footer>
   </body>
-
 </html>

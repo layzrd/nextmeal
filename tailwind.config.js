@@ -36,6 +36,7 @@ module.exports = {
         'prime-200': '#f37866',
         'prime-400': '#df6e5c',
         'grayish': '#97a1a2',
+        'light-gray': '#ebebeb',
         'bluish': '#5f9cd2',
       },
       alignItems: {
