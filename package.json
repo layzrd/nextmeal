@@ -1,0 +1,15 @@
+{
+  "name": "nextmeal",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/css/tailwind.css"
+  } ,
+  "repository": "https://github.com/abredi/nextmeal.git",
+  "author": "Abdulaziz Ali <rediabdulaziz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.2",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
