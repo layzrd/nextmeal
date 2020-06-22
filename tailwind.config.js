@@ -8,6 +8,7 @@ module.exports = {
         "1/3": '33.333333%',
         "1/4": '25%',
         '1/6': '16.666667%',
+        '1/12': '8.333333%',
         "2/3": '66.666667%',
         "3/4": '75%',
         "100": "100%",
@@ -36,6 +37,9 @@ module.exports = {
         'prime-400': '#df6e5c',
         'grayish': '#97a1a2',
         'bluish': '#5f9cd2',
+      },
+      alignItems: {
+        'justify-items-center': 'center'
       }
     },
   },
