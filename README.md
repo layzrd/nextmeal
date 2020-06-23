@@ -4,9 +4,14 @@
 > Food searching website frontend pages for connecting restaurants with their potential customers.
 > this project is done for fulfill the HTML and CSS capstone project at microverse.
 
-![screenshot](./docs/app_screenshot.png)
+# BigScreen View
+![screenshot (Desktop)](/assets/docs/screencapture-big.png?cropResize=1440,921 "Desktop")
+# MediumScreen View
+[medium screen screenshot (Tablet)](/assets/docs/screencapture-medium.png)
+# Small View
+[small screen screenshot (Mobile)](/assets/docs/screencapture-small.png)
 
-This web page is developed by HTML5 and CSS only, without using any framework or library.
+This web page is developed by HTML5 and CSS only, with [tailwindcss](https://tailwindcss.com/) framework.
 
 ## Built With
 
