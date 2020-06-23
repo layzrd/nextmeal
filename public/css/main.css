@@ -1,3 +1,7 @@
+:root {
+  --opacity: 1;
+}
+
 .bg-image {
   background-image: url('../img/bg_main-min.jpg');
 }
@@ -9,4 +13,86 @@
 .bg-center {
   background-position: center center;
   fill: #fa8b79;
+}
+
+.flex-full-row {
+  flex: 0 1 100%;
+}
+
+.h-screen-85 {
+  height: 85vh;
+}
+
+.grid-rows-ad-layout {
+  grid-template-rows: minmax(3em, 5em) repeat(2, 1fr);
+}
+
+.bg-prime {
+  background-color: #c45f4f;
+  background-color: rgba(196, 95, 79, var(--opacity));
+}
+
+.text-prime {
+  color: #c45f4f;
+  color: rgba(196, 95, 79, var(--opacity));
+}
+
+.bg-grayish {
+  background-color: #97a1a2;
+  background-color: rgba(151, 161, 162, var(--opacity));
+}
+
+.bg-light-gray {
+  background-color: #ebebeb;
+  background-color: rgba(235, 235, 235, var(--opacity));
+}
+
+.bg-bluish {
+  background-color: #5f9cd2;
+  background-color: rgba(95, 156, 210, var(--opacity));
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.px-1\/6 {
+  padding-left: 16.666667%;
+  padding-right: 16.666667%;
+}
+
+@media (min-width: 768px) {
+  .md\:px-1\/6 {
+    padding-left: 16.666667%;
+    padding-right: 16.666667%;
+  }
+
+  .md\:px-1\/12 {
+    padding-left: 8.333333%;
+    padding-right: 8.333333%;
+  }
+
+  .md\:h-screen-40 {
+    height: 40vh;
+  }
+
+  .md\:h-screen-60 {
+    height: 60vh;
+  }
+
+  .md\:px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-0 {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }

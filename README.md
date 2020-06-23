@@ -1,11 +1,11 @@
 # NEXT MEAL
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
-> Food searching website frontend pages for connecting restaurants with their potential customers.
-> this project is done for fulfill the HTML and CSS capstone project at microverse.
+> A frontend page for a website which explores dishes from thousands of restaurants and hotel to connecting restaurants with their potential customers.
+> This project developed to accomplish the HTML and CSS capstone project at microverse.
 
 # BigScreen View
-![screenshot (Desktop)](/assets/docs/screencapture-big.png?cropResize=1440,921 "Desktop")
+![screenshot (Desktop)](/assets/docs/screencapture-big.png "Desktop")
 # MediumScreen View
 [medium screen screenshot (Tablet)](/assets/docs/screencapture-medium.png)
 # Small View
@@ -23,7 +23,7 @@ This web page is developed by HTML5 and CSS only, with [tailwindcss](https://tai
 
 ## Live Demo
 
--  [Preview](https://rawcdn.githack.com/abredi/nextmeal/static-pages/index.html)
+-  [Preview](https://raw.githack.com/abredi/nextmeal/static-pages/public/index.html)
 
 ## Getting Started
 
