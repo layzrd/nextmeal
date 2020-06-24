@@ -5,11 +5,11 @@
 > This project developed to accomplish the HTML and CSS capstone project at microverse.
 
 # BigScreen View
-![screenshot (Desktop)](/assets/docs/screencapture-big.png "Desktop")
+![screenshot (Desktop)](public/docs/screencapture-big.png "Desktop")
 # MediumScreen View
-[medium screen screenshot (Tablet)](/assets/docs/screencapture-medium.png)
+[medium screen screenshot (Tablet)](docs/screencapture-medium.png)
 # Small View
-[small screen screenshot (Mobile)](/assets/docs/screencapture-small.png)
+[small screen screenshot (Mobile)](public/docs/screencapture-small.png)
 
 This web page is developed by HTML5 and CSS only, with [tailwindcss](https://tailwindcss.com/) framework.
 
