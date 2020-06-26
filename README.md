@@ -26,7 +26,7 @@ This web page is developed by HTML5 and CSS only, with [tailwindcss](https://tai
 
 ## Live Demo
 
--  [Preview](https://raw.githack.com/abredi/nextmeal/static-pages/public/index.html)
+-  [Preview](https://raw.githack.com/abredi/nextmeal/master/public/index.html)
 
 ## Getting Started
 
