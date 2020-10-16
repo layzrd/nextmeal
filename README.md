@@ -1,8 +1,7 @@
 # NEXT MEAL
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg)
 
-> A frontend page for a website which explores dishes from thousands of restaurants and hotel to connecting restaurants with their potential customers.
-> This project developed to accomplish the HTML and CSS capstone project at microverse.
+NextMeal is a static web page based on the PatashuleKE UI design that I got from Behance. I developed the UI considering a web app that connects people with the best restaurant in their cities. NextMeal flourished to accomplish the HTML and CSS capstone project.
 
 # BigScreen View
 ![screenshot (Desktop)](public/docs/screencapture-big.png "Desktop")
