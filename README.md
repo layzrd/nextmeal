@@ -85,7 +85,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Thanks for Microverse][https://github.com/microverseinc]
 - [Thank you, PatashuleKE, for the design.](https://www.behance.net/gallery/25563385/PatashuleKE)
   > I used their web design for this project
 - [Thank you, @matheusfrade, for the meal picture.](https://unsplash.com/@matheusfrade)
